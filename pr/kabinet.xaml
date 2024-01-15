@@ -1,0 +1,14 @@
+﻿<Window x:Class="pr.kabinet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr"
+        mc:Ignorable="d"
+        Title="kabinet" Height="450" Width="800" Background="#FFCA95F8" >
+    <Grid>
+        <TextBlock x:Name="name"/>
+        <TextBox x:Name="passchange" Height="30" />
+        <Button x:Name="change" Height="30" VerticalAlignment="Bottom" Click="change_Click"/>
+    </Grid>
+</Window>
